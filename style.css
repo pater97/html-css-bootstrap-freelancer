@@ -2,6 +2,9 @@
 header{
     background-color: #2C3E50;
 }
+main .row:first-child{
+    background-color: #1ABC9C;
+}
 .debug header .col-9{
     background-color: aqua;
 }
@@ -10,10 +13,11 @@ header{
     border: 1px solid black;
 }
 /* altezze */
-.debug header div,nav{
+.debug header div,nav,.row{
     height: 100%;
 }
 /* debug class */
 .debug header{
     height: 90px;
 }
+
