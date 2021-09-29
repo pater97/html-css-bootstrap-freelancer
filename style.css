@@ -1,0 +1,19 @@
+/* color */
+header{
+    background-color: #2C3E50;
+}
+.debug header .col-9{
+    background-color: aqua;
+}
+.debug header .col-1{
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+/* altezze */
+.debug header div,nav{
+    height: 100%;
+}
+/* debug class */
+.debug header{
+    height: 90px;
+}
