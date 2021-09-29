@@ -5,6 +5,18 @@ header{
 main .row:first-child{
     background-color: #1ABC9C;
 }
+
+/* altezze debug*/
+.debug header div,nav,header .row{
+    height: 100%;
+}
+.debug .first_part,.debug .second_part{
+    height: 600px;
+}
+.debug header{
+    height: 90px;
+}
+/* color debug class */
 .debug header .col-9{
     background-color: aqua;
 }
@@ -12,12 +24,15 @@ main .row:first-child{
     background-color: aquamarine;
     border: 1px solid black;
 }
-/* altezze */
-.debug header div,nav,.row{
-    height: 100%;
+.debug .first_part .col-6{
+    background-color: chartreuse;
 }
-/* debug class */
-.debug header{
-    height: 90px;
+.debug .second_part .col-12{
+    background-color: chocolate;
+    height: 200px;
 }
-
+.debug .second_part .tabella div{
+    height: 200px;
+    background-color: cyan;
+    border: 3px solid white;
+}
