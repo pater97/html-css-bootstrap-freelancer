@@ -50,3 +50,14 @@ header,#portfolio hr,#contact hr,#copy{
 .water_green{
     color:#1ABC9C ;
 }
+/* effettistica */
+.fa-plus{
+    font-size: 4rem;
+}
+.effect:hover .fa-plus{
+    display: inline-block!important;
+}
+.effect:hover{
+    filter: sepia(1);
+    filter: saturate(1);
+}
