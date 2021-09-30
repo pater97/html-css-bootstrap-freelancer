@@ -10,11 +10,9 @@ body{
 .fs_sm{
     font-size: .8rem;
 }
-#first_part hr{
+#strong_selector hr{
     width: 9rem;
     height: 3px;
-    background: white;
-    border-color: white;
     opacity: 1;
 }
 /* color */
@@ -25,6 +23,7 @@ header{
     background-color: #1ABC9C;
 }
 
-footer{
+footer,#second_part hr{
     background-color:#2C3E50 ;
 }
+
