@@ -3,11 +3,11 @@ body{
     font-family:sans-serif;
 }
 /* parte 1 */
-#first_part img{
+#start img{
     width: 200px;
 }
 /* parte2 */
-#second_part img{
+#portfolio img{
     width: 100%;
     border-radius: 5%;
 }
@@ -24,11 +24,11 @@ body{
 header{
     background-color: #2C3E50;
 }
-#first_part,#third_part{
+#start,#about{
     background-color: #1ABC9C;
 }
 
-footer,#second_part hr{
+footer,#portfolio hr{
     background-color:#2C3E50 ;
 }
 
