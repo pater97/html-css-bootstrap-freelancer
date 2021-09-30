@@ -2,15 +2,26 @@
 body{
     font-family:sans-serif;
 }
+/* parte 1 */
+#first_part img{
+    width: 200px;
+}
 /* utility */
 .fs_sm{
     font-size: .8rem;
+}
+#first_part hr{
+    width: 9rem;
+    height: 3px;
+    background: white;
+    border-color: white;
+    opacity: 1;
 }
 /* color */
 header{
     background-color: #2C3E50;
 }
-.first_part,.third_part{
+#first_part,.third_part{
     background-color: #1ABC9C;
 }
 
