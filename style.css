@@ -28,7 +28,10 @@ header{
     background-color: #1ABC9C;
 }
 
-footer,#portfolio hr{
+footer,#portfolio hr,#contact hr{
     background-color:#2C3E50 ;
+}
+#portfolio .fa-star,#contact .fa-star{
+    color:#2C3E50 ;
 }
 
