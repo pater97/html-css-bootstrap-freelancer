@@ -2,14 +2,24 @@
 body{
     font-family:sans-serif;
 }
-/* parte 1 */
+/* hero img */
 #start img{
     width: 200px;
 }
-/* parte2 */
+/* portfolio */
 #portfolio img{
     width: 100%;
     border-radius: 5%;
+}
+/* footer */
+#find_us i{
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    vertical-align: middle;
+    line-height: 2rem;
+    margin: 0 .5rem;
 }
 /* utility */
 .fs_sm{
@@ -21,14 +31,11 @@ body{
     opacity: 1;
 }
 /* color */
-header{
-    background-color: #2C3E50;
-}
 #start,#about,#contact .btn{
     background-color: #1ABC9C;
 }
 
-footer,#portfolio hr,#contact hr{
+header,#portfolio hr,#contact hr{
     background-color:#2C3E50 ;
 }
 #portfolio .fa-star,#contact .fa-star{
@@ -36,4 +43,10 @@ footer,#portfolio hr,#contact hr{
 }
 ::placeholder{
  color: #334455;
+}
+#find_us{
+    background-color: #3A546D;
+}
+.water_green{
+    color:#1ABC9C ;
 }
