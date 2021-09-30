@@ -24,7 +24,7 @@ body{
 header{
     background-color: #2C3E50;
 }
-#start,#about{
+#start,#about,#contact .btn{
     background-color: #1ABC9C;
 }
 
@@ -34,4 +34,6 @@ footer,#portfolio hr,#contact hr{
 #portfolio .fa-star,#contact .fa-star{
     color:#2C3E50 ;
 }
-
+::placeholder{
+ color: #334455;
+}
