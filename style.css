@@ -6,6 +6,11 @@ body{
 #first_part img{
     width: 200px;
 }
+/* parte2 */
+#second_part img{
+    width: 100%;
+    border-radius: 5%;
+}
 /* utility */
 .fs_sm{
     font-size: .8rem;
